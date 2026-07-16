@@ -33,5 +33,5 @@ jobs:
       - name: Test
         run: go test -v -count=1 -race ./...
 
-      - name: Build example
-        run: go build ./example/
+      - name: Verify example compiles
+        run: go vet ./example/
