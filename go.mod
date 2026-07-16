@@ -1,6 +1,6 @@
 module github.com/maulanashalihin/fiber-inertia
 
-go 1.26.1
+go 1.21
 
 require github.com/gofiber/fiber/v2 v2.52.14
 
